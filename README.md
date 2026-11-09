@@ -2,6 +2,12 @@
 
 A Flutter and FastAPI research prototype for bone marrow cell image classification. The interface lets a user select an image and choose an Inception, ResNet, or MobileNet model, then displays the predicted cell label and confidence.
 
+## Interface preview
+
+The responsive diagnostic workspace introduces the image-analysis flow before model selection and inference:
+
+![Marrow Insight diagnostic interface](docs/images/marrow-insight-home.png)
+
 ## Stack and architecture
 
 Flutter / Dart `^3.8.1`, `image_picker`, `http`, and `percent_indicator` form the client. Python, FastAPI, Pydantic, TensorFlow/Keras, NumPy, and pandas form the inference service.
